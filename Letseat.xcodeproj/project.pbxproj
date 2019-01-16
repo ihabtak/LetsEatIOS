@@ -12,7 +12,106 @@
 		0426BE4921D17720001AF5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0426BE4721D17720001AF5F9 /* Main.storyboard */; };
 		0426BE4B21D17720001AF5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0426BE4A21D17720001AF5F9 /* Assets.xcassets */; };
 		0426BE4E21D17720001AF5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0426BE4C21D17720001AF5F9 /* LaunchScreen.storyboard */; };
+		0486B1E321D654D900BFDD85 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486B1E221D654D900BFDD85 /* Restaurant.swift */; };
+		0486B1E521D6551D00BFDD85 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486B1E421D6551D00BFDD85 /* Dish.swift */; };
+		0486B1E921D66A3900BFDD85 /* RestaurantsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486B1E821D66A3900BFDD85 /* RestaurantsListTableViewController.swift */; };
+		048F6EF321E7BDEE00B9060B /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F6EF221E7BDEC00B9060B /* Review.swift */; };
+		048F6EF521E7C03100B9060B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F6EF421E7C03100B9060B /* User.swift */; };
+		048F6EF721E7C2C000B9060B /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F6EF621E7C2C000B9060B /* Invitation.swift */; };
+		048F6EFB21EB843000B9060B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F6EFA21EB843000B9060B /* MapViewController.swift */; };
+		04B2D36021EBAC1300111FC8 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B2D35321EBABFF00111FC8 /* SQLite.framework */; };
+		04B2D36121EBAC1900111FC8 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B2D35321EBABFF00111FC8 /* SQLite.framework */; };
+		04B2D36221EBAC1900111FC8 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04B2D35321EBABFF00111FC8 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04B2D36721EBE91D00111FC8 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2D36621EBE91D00111FC8 /* CosmosDistrib.swift */; };
+		04B2D36B21ECF45300111FC8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B2D36A21ECF45100111FC8 /* CoreLocation.framework */; };
+		04B2D37321ECF9FE00111FC8 /* DatabaseLetseat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2D37221ECF9FE00111FC8 /* DatabaseLetseat.swift */; };
+		04BF767C21D3BEAE0042CF6A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF767B21D3BEAD0042CF6A /* StartViewController.swift */; };
+		04BF767E21D3BEF40042CF6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF767D21D3BEF40042CF6A /* LoginViewController.swift */; };
+		04BF768021D3BF100042CF6A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF767F21D3BF100042CF6A /* SignUpViewController.swift */; };
+		04BF768221D3BF240042CF6A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF768121D3BF240042CF6A /* HomeViewController.swift */; };
+		04BF768421D3C6830042CF6A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BF768321D3C6830042CF6A /* GoogleService-Info.plist */; };
+		04BF768821D3E3A10042CF6A /* RestaurantsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF768721D3E3A10042CF6A /* RestaurantsDetailsViewController.swift */; };
+		04BF768A21D3E3CA0042CF6A /* RestaurantsReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF768921D3E3CA0042CF6A /* RestaurantsReviewsViewController.swift */; };
+		04BF768C21D3E4000042CF6A /* RestaurantsEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF768B21D3E4000042CF6A /* RestaurantsEditViewController.swift */; };
+		04BF768E21D3E4210042CF6A /* DishEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF768D21D3E4210042CF6A /* DishEditViewController.swift */; };
+		04BF769021D3E4690042CF6A /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF768F21D3E4690042CF6A /* InviteViewController.swift */; };
+		04BF769221D3E4900042CF6A /* AddGuestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF769121D3E4900042CF6A /* AddGuestsViewController.swift */; };
+		04F02D1E21EF2BFD0061BD93 /* Dataen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F02D1D21EF2BFB0061BD93 /* Dataen.swift */; };
+		D9278E4E360F2E9D0FB7BF1B /* Pods_Letseat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6853BC23747B280C7E4C19E /* Pods_Letseat.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B2D35221EBABFF00111FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B2D34821EBABFF00111FC8 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		04B2D35421EBABFF00111FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B2D34821EBABFF00111FC8 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		04B2D35621EBABFF00111FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B2D34821EBABFF00111FC8 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		04B2D35821EBABFF00111FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B2D34821EBABFF00111FC8 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		04B2D35A21EBABFF00111FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B2D34821EBABFF00111FC8 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		04B2D35C21EBABFF00111FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B2D34821EBABFF00111FC8 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		04B2D35E21EBABFF00111FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B2D34821EBABFF00111FC8 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		04B2D36321EBAC1900111FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B2D34821EBABFF00111FC8 /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04B2D36521EBAC1900111FC8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04B2D36221EBAC1900111FC8 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0426BE4021D17720001AF5F9 /* Letseat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Letseat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +121,33 @@
 		0426BE4A21D17720001AF5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0426BE4D21D17720001AF5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0426BE4F21D17720001AF5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0486B1E221D654D900BFDD85 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		0486B1E421D6551D00BFDD85 /* Dish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		0486B1E821D66A3900BFDD85 /* RestaurantsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsListTableViewController.swift; sourceTree = "<group>"; };
+		048F6EF221E7BDEC00B9060B /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		048F6EF421E7C03100B9060B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		048F6EF621E7C2C000B9060B /* Invitation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invitation.swift; sourceTree = "<group>"; };
+		048F6EFA21EB843000B9060B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		048F6F4A21EB8A1400B9060B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		04B2D34821EBABFF00111FC8 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../../Downloads/SQLite.swift-0.11.1/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		04B2D36621EBE91D00111FC8 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CosmosDistrib.swift; path = "../../../../Downloads/Cosmos-8.0.2/Distrib/CosmosDistrib.swift"; sourceTree = "<group>"; };
+		04B2D36A21ECF45100111FC8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04B2D37221ECF9FE00111FC8 /* DatabaseLetseat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseLetseat.swift; sourceTree = "<group>"; };
+		04BF767B21D3BEAD0042CF6A /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		04BF767D21D3BEF40042CF6A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04BF767F21D3BF100042CF6A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		04BF768121D3BF240042CF6A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04BF768321D3C6830042CF6A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04BF768721D3E3A10042CF6A /* RestaurantsDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsDetailsViewController.swift; sourceTree = "<group>"; };
+		04BF768921D3E3CA0042CF6A /* RestaurantsReviewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsReviewsViewController.swift; sourceTree = "<group>"; };
+		04BF768B21D3E4000042CF6A /* RestaurantsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsEditViewController.swift; sourceTree = "<group>"; };
+		04BF768D21D3E4210042CF6A /* DishEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DishEditViewController.swift; sourceTree = "<group>"; };
+		04BF768F21D3E4690042CF6A /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		04BF769121D3E4900042CF6A /* AddGuestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGuestsViewController.swift; sourceTree = "<group>"; };
+		04F02D1D21EF2BFB0061BD93 /* Dataen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dataen.swift; sourceTree = "<group>"; };
+		5C7E78362BB138495A783FA6 /* Pods-Letseat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letseat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Letseat/Pods-Letseat.debug.xcconfig"; sourceTree = "<group>"; };
+		C294E89D3519894A9C470A6E /* Pods-Letseat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Letseat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Letseat/Pods-Letseat.release.xcconfig"; sourceTree = "<group>"; };
+		D6853BC23747B280C7E4C19E /* Pods_Letseat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Letseat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +155,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B2D36B21ECF45300111FC8 /* CoreLocation.framework in Frameworks */,
+				04B2D36021EBAC1300111FC8 /* SQLite.framework in Frameworks */,
+				D9278E4E360F2E9D0FB7BF1B /* Pods_Letseat.framework in Frameworks */,
+				04B2D36121EBAC1900111FC8 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +170,9 @@
 			children = (
 				0426BE4221D17720001AF5F9 /* Letseat */,
 				0426BE4121D17720001AF5F9 /* Products */,
+				2C434B9BFBED381266DA9EB7 /* Pods */,
+				04B2D34821EBABFF00111FC8 /* SQLite.xcodeproj */,
+				294039C19CE6120DDE595809 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +187,68 @@
 		0426BE4221D17720001AF5F9 /* Letseat */ = {
 			isa = PBXGroup;
 			children = (
+				04B2D36621EBE91D00111FC8 /* CosmosDistrib.swift */,
+				04BF768321D3C6830042CF6A /* GoogleService-Info.plist */,
 				0426BE4321D17720001AF5F9 /* AppDelegate.swift */,
 				0426BE4521D17720001AF5F9 /* ViewController.swift */,
 				0426BE4721D17720001AF5F9 /* Main.storyboard */,
 				0426BE4A21D17720001AF5F9 /* Assets.xcassets */,
 				0426BE4C21D17720001AF5F9 /* LaunchScreen.storyboard */,
 				0426BE4F21D17720001AF5F9 /* Info.plist */,
+				04BF767B21D3BEAD0042CF6A /* StartViewController.swift */,
+				04BF767D21D3BEF40042CF6A /* LoginViewController.swift */,
+				04BF767F21D3BF100042CF6A /* SignUpViewController.swift */,
+				04BF768121D3BF240042CF6A /* HomeViewController.swift */,
+				04BF768721D3E3A10042CF6A /* RestaurantsDetailsViewController.swift */,
+				04BF768921D3E3CA0042CF6A /* RestaurantsReviewsViewController.swift */,
+				04BF768B21D3E4000042CF6A /* RestaurantsEditViewController.swift */,
+				04BF768D21D3E4210042CF6A /* DishEditViewController.swift */,
+				04BF768F21D3E4690042CF6A /* InviteViewController.swift */,
+				04BF769121D3E4900042CF6A /* AddGuestsViewController.swift */,
+				0486B1E221D654D900BFDD85 /* Restaurant.swift */,
+				0486B1E421D6551D00BFDD85 /* Dish.swift */,
+				0486B1E821D66A3900BFDD85 /* RestaurantsListTableViewController.swift */,
+				048F6EF221E7BDEC00B9060B /* Review.swift */,
+				048F6EF421E7C03100B9060B /* User.swift */,
+				048F6EF621E7C2C000B9060B /* Invitation.swift */,
+				048F6EFA21EB843000B9060B /* MapViewController.swift */,
+				04B2D37221ECF9FE00111FC8 /* DatabaseLetseat.swift */,
+				04F02D1D21EF2BFB0061BD93 /* Dataen.swift */,
 			);
 			path = Letseat;
+			sourceTree = "<group>";
+		};
+		04B2D34921EBABFF00111FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B2D35321EBABFF00111FC8 /* SQLite.framework */,
+				04B2D35521EBABFF00111FC8 /* SQLiteTests iOS.xctest */,
+				04B2D35721EBABFF00111FC8 /* SQLite.framework */,
+				04B2D35921EBABFF00111FC8 /* SQLiteTests Mac.xctest */,
+				04B2D35B21EBABFF00111FC8 /* SQLite.framework */,
+				04B2D35D21EBABFF00111FC8 /* SQLiteTests tvOS.xctest */,
+				04B2D35F21EBABFF00111FC8 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		294039C19CE6120DDE595809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04B2D36A21ECF45100111FC8 /* CoreLocation.framework */,
+				048F6F4A21EB8A1400B9060B /* libsqlite3.0.tbd */,
+				D6853BC23747B280C7E4C19E /* Pods_Letseat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C434B9BFBED381266DA9EB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C7E78362BB138495A783FA6 /* Pods-Letseat.debug.xcconfig */,
+				C294E89D3519894A9C470A6E /* Pods-Letseat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,13 +258,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0426BE5221D17720001AF5F9 /* Build configuration list for PBXNativeTarget "Letseat" */;
 			buildPhases = (
+				A30B3418FCE8C9636E1CCF6E /* [CP] Check Pods Manifest.lock */,
 				0426BE3C21D1771D001AF5F9 /* Sources */,
 				0426BE3D21D1771D001AF5F9 /* Frameworks */,
 				0426BE3E21D1771D001AF5F9 /* Resources */,
+				A376ADB270A0D6167259161F /* [CP] Embed Pods Frameworks */,
+				04B2D36521EBAC1900111FC8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04B2D36421EBAC1900111FC8 /* PBXTargetDependency */,
 			);
 			name = Letseat;
 			productName = Letseat;
@@ -96,6 +287,7 @@
 				TargetAttributes = {
 					0426BE3F21D1771D001AF5F9 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4K68RNN46Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -111,6 +303,12 @@
 			mainGroup = 0426BE3721D1771D001AF5F9;
 			productRefGroup = 0426BE4121D17720001AF5F9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04B2D34921EBABFF00111FC8 /* Products */;
+					ProjectRef = 04B2D34821EBABFF00111FC8 /* SQLite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0426BE3F21D1771D001AF5F9 /* Letseat */,
@@ -118,12 +316,65 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		04B2D35321EBABFF00111FC8 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 04B2D35221EBABFF00111FC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04B2D35521EBABFF00111FC8 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 04B2D35421EBABFF00111FC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04B2D35721EBABFF00111FC8 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 04B2D35621EBABFF00111FC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04B2D35921EBABFF00111FC8 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 04B2D35821EBABFF00111FC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04B2D35B21EBABFF00111FC8 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 04B2D35A21EBABFF00111FC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04B2D35D21EBABFF00111FC8 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 04B2D35C21EBABFF00111FC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04B2D35F21EBABFF00111FC8 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 04B2D35E21EBABFF00111FC8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		0426BE3E21D1771D001AF5F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0426BE4E21D17720001AF5F9 /* LaunchScreen.storyboard in Resources */,
+				04BF768421D3C6830042CF6A /* GoogleService-Info.plist in Resources */,
 				0426BE4B21D17720001AF5F9 /* Assets.xcassets in Resources */,
 				0426BE4921D17720001AF5F9 /* Main.storyboard in Resources */,
 			);
@@ -131,17 +382,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A30B3418FCE8C9636E1CCF6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Letseat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A376ADB270A0D6167259161F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Letseat/Pods-Letseat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Letseat/Pods-Letseat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0426BE3C21D1771D001AF5F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BF768C21D3E4000042CF6A /* RestaurantsEditViewController.swift in Sources */,
+				0486B1E921D66A3900BFDD85 /* RestaurantsListTableViewController.swift in Sources */,
+				04BF767E21D3BEF40042CF6A /* LoginViewController.swift in Sources */,
+				04B2D36721EBE91D00111FC8 /* CosmosDistrib.swift in Sources */,
+				04B2D37321ECF9FE00111FC8 /* DatabaseLetseat.swift in Sources */,
+				04BF769021D3E4690042CF6A /* InviteViewController.swift in Sources */,
+				04BF768821D3E3A10042CF6A /* RestaurantsDetailsViewController.swift in Sources */,
+				04BF768A21D3E3CA0042CF6A /* RestaurantsReviewsViewController.swift in Sources */,
+				0486B1E521D6551D00BFDD85 /* Dish.swift in Sources */,
+				048F6EFB21EB843000B9060B /* MapViewController.swift in Sources */,
+				04BF769221D3E4900042CF6A /* AddGuestsViewController.swift in Sources */,
+				04BF768E21D3E4210042CF6A /* DishEditViewController.swift in Sources */,
+				04F02D1E21EF2BFD0061BD93 /* Dataen.swift in Sources */,
 				0426BE4621D17720001AF5F9 /* ViewController.swift in Sources */,
 				0426BE4421D17720001AF5F9 /* AppDelegate.swift in Sources */,
+				0486B1E321D654D900BFDD85 /* Restaurant.swift in Sources */,
+				048F6EF321E7BDEE00B9060B /* Review.swift in Sources */,
+				048F6EF521E7C03100B9060B /* User.swift in Sources */,
+				04BF767C21D3BEAE0042CF6A /* StartViewController.swift in Sources */,
+				04BF768021D3BF100042CF6A /* SignUpViewController.swift in Sources */,
+				04BF768221D3BF240042CF6A /* HomeViewController.swift in Sources */,
+				048F6EF721E7C2C000B9060B /* Invitation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B2D36421EBAC1900111FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite iOS";
+			targetProxy = 04B2D36321EBAC1900111FC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0426BE4721D17720001AF5F9 /* Main.storyboard */ = {
@@ -258,8 +580,11 @@
 		};
 		0426BE5321D17720001AF5F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7E78362BB138495A783FA6 /* Pods-Letseat.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4K68RNN46Z;
 				INFOPLIST_FILE = Letseat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.utt.if26.Letseat;
@@ -270,8 +595,11 @@
 		};
 		0426BE5421D17720001AF5F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C294E89D3519894A9C470A6E /* Pods-Letseat.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4K68RNN46Z;
 				INFOPLIST_FILE = Letseat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.utt.if26.Letseat;
@@ -299,6 +627,7 @@
 				0426BE5421D17720001AF5F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
